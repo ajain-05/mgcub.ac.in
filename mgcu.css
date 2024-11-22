@@ -31,7 +31,7 @@ body{
     letter-spacing: 0.1rem;
     font-weight:100;
     cursor: pointer;
-    font-size: 0.8vw;
+    font-size: 0.6vw;
     padding: 0.2rem 0.5rem;
 }
 .new{
@@ -194,15 +194,14 @@ select{
     }
     .box>p{
         font-size: 1.7vw;
-        padding: 0.2rem 0.5rem;
     }
-    .new{
+    /* .new{
         background-color: white;
         color: red;
         padding: 0.0001rem 0.5rem;
         letter-spacing: 0;
         text-align: center;
-    }
+    } */
     .bar{
         font-size: 2vw;
     }
@@ -222,15 +221,15 @@ select{
     }
     .box>p{
         font-size: 1.7vw;
-        padding: 0.2rem 0.5rem;
+        /* padding: 0.2rem 0.5rem; */
     }
-    .new{
+    /* .new{
         background-color: white;
         color: red;
         padding: 0.0001rem 0.5rem;
         letter-spacing: 0;
         text-align: center;
-    }
+    } */
     .bar{
         font-size: 2vw;
     }
@@ -243,20 +242,37 @@ select{
     }
     .box>p{
         font-size: 1.7vw;
-        padding: 0.2rem 0.5rem;
+        /* padding: 0.2rem 0.5rem; */
     }
-    .new{
+    /* .new{
         background-color: white;
         color: red;
         padding: 0.0001rem 0.5rem;
         letter-spacing: 0;
         text-align: center;
-    }
+    } */
     .bar{
         font-size: 2vw;
     }
 }
 
 @media (max-width:240px){
-    
+    .rag{
+        width: 100vw;
+        height: 10vh;
+    }
+    .box>p{
+        font-size: 0.5vw;
+        /* padding: 0.2rem 0.5rem; */
+    }
+    /* .new{
+        background-color: white;
+        color: red;
+        padding: 0.0001rem 0.5rem;
+        letter-spacing: 0;
+        text-align: center;
+    } */
+    .bar{
+        font-size: 2vw;
+    }
 }
