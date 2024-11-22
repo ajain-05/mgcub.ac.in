@@ -260,10 +260,10 @@ select{
 
     }
     .shlok>img{
-        width: 18vw;
+        width: 17vw;
         cursor: pointer;
         margin-top: 0rem;
-        margin-right: 5vw;
+        margin-right: 3vw;
     }
 }
 
