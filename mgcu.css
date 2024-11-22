@@ -34,14 +34,16 @@ body{
     font-size: 0.8vw;
     padding: 0.2rem 0.5rem;
 }
-span{
+.new{
     background-color: white;
     color: red;
     padding: 0.0001rem 0.5rem;
     letter-spacing: 0;
     text-align: center;
 }
-
+.bar{
+    color: #0b416f;
+}
 /*Logo*/
 /* .logo{
     width: 100vw;
@@ -185,6 +187,34 @@ select{
 } */
 
 
+@media(max-width:768px){
+    .rag{
+        width: 100vw;
+        height: 10vh;
+    }
+    .box>p{
+        font-size: 1.7vw;
+        padding: 0.2rem 0.5rem;
+    }
+    .new{
+        background-color: white;
+        color: red;
+        padding: 0.0001rem 0.5rem;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .bar{
+        font-size: 2vw;
+    }
+}
+
+@media (max-width:600px){
+    
+}
+
+@media (max-width:351px){
+    
+}
 @media(max-width:360px) and (min-width:352px){
     .rag{
         width: 100vw;
@@ -194,15 +224,17 @@ select{
         font-size: 1.7vw;
         padding: 0.2rem 0.5rem;
     }
-    span{
+    .new{
         background-color: white;
         color: red;
         padding: 0.0001rem 0.5rem;
         letter-spacing: 0;
         text-align: center;
     }
+    .bar{
+        font-size: 2vw;
+    }
 }
-
 
 @media(max-width:320px){
     .rag{
@@ -213,11 +245,18 @@ select{
         font-size: 1.7vw;
         padding: 0.2rem 0.5rem;
     }
-    span{
+    .new{
         background-color: white;
         color: red;
         padding: 0.0001rem 0.5rem;
         letter-spacing: 0;
         text-align: center;
     }
+    .bar{
+        font-size: 2vw;
+    }
+}
+
+@media (max-width:240px){
+    
 }
