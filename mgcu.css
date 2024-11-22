@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Header*/
+.rag{
+    background-color: #eeeeee;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    border: 0.1rem solid #eeeeee;
+}
+.box>p:hover{
+    background-color: #0b416f;
+    color: #ffffff;
+}
+.box>p{
+    color: #0b416f;
+    letter-spacing: 0.1rem;
+    font-weight:100;
+    cursor: pointer;
+    font-size: 0.8vw;
+    padding: 0.2rem 0.5rem;
+}
+span{
+    background-color: white;
+    color: red;
+    padding: 0.0001rem 0.5rem;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+/*Logo*/
+/* .logo{
+    width: 100vw;
+    height: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    height: 5.5vw;
+    width: 5vw;
+}
+.img>img{
+    height: 5.5vw;
+    width: 5vw;
+}
+.text{
+    width: 30vw;
+    margin-top: 0.2rem;
+    margin-right: 34vw;
+    text-align: start;
+}
+.text>h1{
+    cursor: pointer;
+    color:#e16734;
+    font-size: 1.8vw;
+}
+.text>p{
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1.2vw;
+}
+.aazadi>img{
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+.shlok>img{
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-right: 5rem;
+} */
+
+/*Nav*/
+/* .nav{
+    height: 3vw;
+    width: 100vw;
+    align-items: center;
+    background-color: #e16734;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.homeIcon{
+   height: 3vw;
+   background-color: #bb3f2d;
+   padding-top: 0.8rem;
+   width: 3rem;
+}
+.homeIcon>img{
+    height: 1.5rem;
+    margin-left: 0.8rem;
+}
+.box11{
+    background-color: #bb3f2d;
+    height: 3vw;
+    padding: 0.8rem 0.5rem;
+}
+.box1{
+    cursor: pointer;
+}
+select{
+    border: none;
+    background-color: #e16734;
+    color:#ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 0.5rem;
+}
+#mgcusamarth{
+    background-color: #bb3f2d;
+} */
+
+/*Scroll*/
+/* .scrollW{
+    margin-left: 0.5vw;
+    width: 99vw;
+    display: flex;
+    margin-top: 0.8rem;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    border-right: 5px solid #bb3f2d;
+    border-left: 5px solid #bb3f2d;
+}
+.scroll{
+    background-color: white;
+    display: flex;
+    text-wrap: nowrap;
+    width: 97.5vw;
+    height: 2vw;
+    overflow-x:auto ;
+    scrollbar-width: none;
+    
+}
+.scroll>p{
+    position: relative;
+    padding: 0.2rem 0.5rem 0.5rem;
+    animation-name: scrollRight;
+    animation-duration: 200s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-weight: 900;
+
+}
+@keyframes scrollRight{
+    from{
+        transform: translateX(28%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.hero{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.heroBox{
+    background-color: #FDF4E6;
+}
+.heroBox>p{
+    padding: 1rem;
+} */
+
+
+@media(max-width:360px) and (min-width:352px){
+    .rag{
+        width: 100vw;
+        height: 10vh;
+    }
+    .box>p{
+        font-size: 1.7vw;
+        padding: 0.2rem 0.5rem;
+    }
+    span{
+        background-color: white;
+        color: red;
+        padding: 0.0001rem 0.5rem;
+        letter-spacing: 0;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:320px){
+    .rag{
+        width: 100vw;
+        height: 10vh;
+    }
+    .box>p{
+        font-size: 1.7vw;
+        padding: 0.2rem 0.5rem;
+    }
+    span{
+        background-color: white;
+        color: red;
+        padding: 0.0001rem 0.5rem;
+        letter-spacing: 0;
+        text-align: center;
+    }
+}
