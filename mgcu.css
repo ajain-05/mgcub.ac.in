@@ -239,7 +239,6 @@ select{
         margin-right: 0;
     }
     .text{
-
         width: 60vw;
         /* background-color: orange; */
         margin-top: 0.5rem;
@@ -260,10 +259,10 @@ select{
       
     }
     .aazadi>img{
-        width: 20vw;
+        width: 25vw;
         cursor: pointer;
         margin-top: 0.5rem;
-        margin-left:75vw ;
+        margin-left:70vw ;
         
     }
     
@@ -271,7 +270,7 @@ select{
         width: 25vw;
         cursor: pointer;
         margin-right: 0;
-        margin-left: 70vw;
+        margin-left: 65vw;
     }
 }
 
@@ -289,21 +288,21 @@ select{
 
     .logo{
         width: 100vw;
-        background-color: aqua;
-        height: 12vw;
+        /* background-color: aqua; */
+        height: 30vw;
     }
     .img{
         margin-top: 0.3rem;
         margin-left: 1vw;
-        height: 9vw;
-        width: 7vw;
+        height: 12vw;
+        width: 10vw;
     }
     .img>img{
-        height: 9vw;
-        width: 7vw;
+        height: 12vw;
+        width: 10vw;
     }
     .text{
-        width: 50rem;
+        width: 70vw;
         /* background-color: orange; */
         margin-top: 0.3rem;
         margin-right: 10vw;
@@ -311,27 +310,28 @@ select{
     }
     .text>h1{
         cursor: pointer;
-        color:#e16734;
         text-wrap: nowrap;
-        font-size: 0.55rem;
+        font-size: 0.7rem;
     }
     .text>p{
         text-wrap: nowrap;
         cursor: pointer;
         font-weight: 900;
-        font-size: 1.5vw;
+        font-size: 2.1vw;
     }
     .aazadi>img{
-        width: 10vw;
+        width: 20vw;
         cursor: pointer;
         margin-top: 0.5rem;
+        margin-left: 75vw;
 
     }
     .shlok>img{
-        width: 18vw;
+        width: 25vw;
         cursor: pointer;
         margin-top: 0rem;
-        margin-right: 3vw;
+        margin-right: 0vw;
+        margin-left: 70vw;
     }
 }
 
