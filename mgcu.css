@@ -12,7 +12,7 @@ body{
 .rag{
     background-color: #eeeeee;
     width: 100vw;
-    height: 5vh;
+    height: 2vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -198,7 +198,7 @@ select{
 @media(max-width:768px){
     .rag{
         width: 100vw;
-        height: 8vh;
+        height: 6vw;
     }
     .box>p{
         font-size: 1.7vw;
@@ -262,10 +262,24 @@ select{
 
 }
 
+@media(max-width:640px){
+    .rag{
+        width: 100vw;
+        height: 2.5vw;
+    }
+    .box>p{
+        font-size: 0.9vw;
+    }
+    .bar{
+        font-size: 0.5vw;
+    }
+
+}
+
 @media (max-width:600px){
     .rag{
         width: 100vw;
-        height: 6vh;
+        height: 8vw;
     }
     .box>p{
         font-size: 2vw;
@@ -330,7 +344,7 @@ select{
 @media(max-width:360px) and (min-width:352px){
     .rag{
         width: 100vw;
-        height: 6vh;
+        height: 8vw;
     }
     .box>p{
         font-size: 2vw;
@@ -396,15 +410,12 @@ select{
 @media(max-width:320px){
     .rag{
         width: 100vw;
-        height: 3vh;
+        height:7vw; 
     }
-    .box>p{
-        font-size: 1.7vw;
+    .box{
+        background-color: white;
+        border: 0.1rem solid #eeeeee;
     }
-    .bar{
-        font-size: 2vw;
-    }
-
     .logo{
         width: 100vw;
         /* background-color: aqua; */
@@ -454,23 +465,10 @@ select{
     }
 }
 
-@media (max-width:240px){
+@media (max-width:315px){
     .rag{
         width: 100vw;
-        height: 10vh;
-    }
-    .box>p{
-        font-size: 0.5vw;
-    }
-    .bar{
-        font-size: 2vw;
-    }
-}
-
-@media(max-width:640px) and (max-height:360px){
-    .rag{
-        width: 100vw;
-        height: 12vh;
+        height: 8vw;
     }
     .box>p{
         font-size: 2vw;
@@ -478,5 +476,5 @@ select{
     .bar{
         font-size: 1vw;
     }
-
 }
+
