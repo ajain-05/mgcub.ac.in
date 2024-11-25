@@ -49,7 +49,8 @@ body{
     width: 100vw;
     height: 8vw;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
 }
 .img{
     cursor: pointer;
@@ -222,48 +223,55 @@ select{
     .logo{
         width: 100vw;
         /* background-color: aqua; */
-        height: 12vw;
+        height: 39vw;
+        margin-right: 0;
     }
     .img{
         margin-top: 0.3rem;
         margin-left: 1vw;
-        height: 9.5vw;
-        width: 7.5vw;
+        height: 15vw;
+        margin-right: 0;
+        width: 12vw;
     }
     .img>img{
-        height: 9.5vw;
-        width: 7.5vw;
+        height: 15vw;
+        width: 12vw;
+        margin-right: 0;
     }
     .text{
-        width: 50rem;
+
+        width: 60vw;
         /* background-color: orange; */
-        margin-top: 0.3rem;
-        margin-right: 10vw;
-        margin-left: 0.2rem;
+        margin-top: 0.5rem;
+        margin-right: 20vw;
+        margin-left: 1.5vw;
     }
     .text>h1{
         cursor: pointer;
         color:#e16734;
         text-wrap: nowrap;
-        font-size: 0.6rem;
+        font-size: 0.9rem;
     }
     .text>p{
         text-wrap: nowrap;
         cursor: pointer;
         font-weight: 900;
-        font-size: 1.7vw;
+        font-size: 2vw;
+      
     }
     .aazadi>img{
-        width: 10vw;
+        width: 20vw;
         cursor: pointer;
         margin-top: 0.5rem;
-
+        margin-left:75vw ;
+        
     }
+    
     .shlok>img{
-        width: 16vw;
+        width: 25vw;
         cursor: pointer;
-        margin-top: 0rem;
-        margin-right: 2.5vw;
+        margin-right: 0;
+        margin-left: 70vw;
     }
 }
 
